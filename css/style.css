@@ -1,3 +1,79 @@
 body {
+    background: #ffffff url('../images/background_scene.gif'); /* Background pattern from Subtle Patterns */
     text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*
+    Container 
+*/
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+	color: #fff;
+	text-shadow: 2px 2px 1px darkcyan;
+	cursor: default;
+}
+
+h2 {
+    display: inline;
+    margin-right:30px;
+    margin-left: 20px;
+    font-family: 'Press Start 2P', cursive;
+	color: #000;
+	background-color: darkcyan;
+	text-align: center;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	cursor: default;
+	opacity: 0.8;
+}
+
+/*
+ * Styles for the Score Panel
+ */
+
+
+.score-panel {
+    /* float: left; */
+    text-align: center;
+    width: 550px;
+    /* margin-bottom: 5px; */
+    font-size: 16px;
+    /* font-weight: bold; */
+    font-family: 'Tangerine', cursive;
+}
+
+/* .score-panel .stars {
+    margin: 0;
+    padding-right: 15px;
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+
+.score-panel .stars li {
+    list-style: none;
+    display: inline-block;
+} */
+
+.score-panel span {
+    width: 30px;
+}
+
+
+.score-panel .restart {
+    float: right;
+    cursor: pointer;
+    margin-right: 100px;
+    margin-top: 13px;
+    font-family: 'Times New Roman', Times, serif;
 }
