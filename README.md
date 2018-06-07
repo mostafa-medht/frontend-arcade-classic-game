@@ -6,7 +6,7 @@ In my Front End Udacity nanodegree, I had to code a classic arcade game based on
 ## Installing from Source
 
 1. Clone the following repo: 
-   * git clone https://github.com/mostafa-medht/arc-game
+   * git clone https://github.com/mostafa-medht/frontend-arcade-classic-game
 
 2. Load index.html in browser.
 
@@ -15,7 +15,7 @@ In my Front End Udacity nanodegree, I had to code a classic arcade game based on
 
 ## How to Play:
 The goal is to match is to jump into the water. 
-Click in the following link to play: https://mostafa-medht.github.io/arc-game
+Click in the following link to play: https://mostafa-medht.github.io/frontend-arcade-classic-game/
 
 1. Using the arrow keys on your keyboard, move upwards.
 
